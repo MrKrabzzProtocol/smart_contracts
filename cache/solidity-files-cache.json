@@ -1,0 +1,659 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/contracts/KrabzToken.sol": {
+      "lastModificationDate": 1684892220806,
+      "contentHash": "493c3c81c765b72444016e30afdeeda6",
+      "sourceName": "contracts/KrabzToken.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/ERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "KrabzToken"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+      "lastModificationDate": 1684658434381,
+      "contentHash": "834a0dde221759af42b030253315b086",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/ERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IERC20.sol",
+        "./extensions/IERC20Metadata.sol",
+        "../../utils/Context.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1684658434381,
+      "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@openzeppelin/contracts/utils/Context.sol": {
+      "lastModificationDate": 1684658434331,
+      "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
+      "sourceName": "@openzeppelin/contracts/utils/Context.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Context"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+      "lastModificationDate": 1684658434381,
+      "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../IERC20.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20Metadata"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/contracts/MrKrabz.sol": {
+      "lastModificationDate": 1684893541766,
+      "contentHash": "6bc4dc00b1630cfcc7cd7d4b937af994",
+      "sourceName": "contracts/MrKrabz.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@axelar-network/axelar-gmp-sdk-solidity/contracts/executable/AxelarExecutable.sol",
+        "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGateway.sol",
+        "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGasService.sol",
+        "usingtellor/contracts/UsingTellor.sol"
+      ],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "MrKrabz"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/usingtellor/contracts/UsingTellor.sol": {
+      "lastModificationDate": 1684658815281,
+      "contentHash": "cb5640ed4217a27ad9452b7d01395c25",
+      "sourceName": "usingtellor/contracts/UsingTellor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./interface/ITellor.sol",
+        "./interface/IERC2362.sol",
+        "./interface/IMappingContract.sol"
+      ],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "UsingTellor"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGasService.sol": {
+      "lastModificationDate": 1684658704071,
+      "contentHash": "7b062b52a949eb4ebb3a450471e4a05e",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGasService.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarGasService"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGateway.sol": {
+      "lastModificationDate": 1684658704071,
+      "contentHash": "c493ed470617f40baa752fe772d3490e",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGateway.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarGateway"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@axelar-network/axelar-gmp-sdk-solidity/contracts/executable/AxelarExecutable.sol": {
+      "lastModificationDate": 1684658704071,
+      "contentHash": "01c9e79b4847815cc5f0759e7e71d82a",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/executable/AxelarExecutable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "../interfaces/IAxelarGateway.sol",
+        "../interfaces/IAxelarExecutable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AxelarExecutable"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/usingtellor/contracts/interface/ITellor.sol": {
+      "lastModificationDate": 1684658815571,
+      "contentHash": "50674ad600c2230d403807a33bce316b",
+      "sourceName": "usingtellor/contracts/interface/ITellor.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "Autopay",
+        "ITellor"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/usingtellor/contracts/interface/IERC2362.sol": {
+      "lastModificationDate": 1684658815571,
+      "contentHash": "4adb8ed9c9f17cd35179df77aa211b8d",
+      "sourceName": "usingtellor/contracts/interface/IERC2362.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.8.0"
+      ],
+      "artifacts": [
+        "IERC2362"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/usingtellor/contracts/interface/IMappingContract.sol": {
+      "lastModificationDate": 1684658815571,
+      "contentHash": "9691e55eaec78029b3aee5ec06caf756",
+      "sourceName": "usingtellor/contracts/interface/IMappingContract.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IMappingContract"
+      ]
+    },
+    "/home/franfran/my_projects/mr_krabz/smart_contracts/node_modules/@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarExecutable.sol": {
+      "lastModificationDate": 1684658704071,
+      "contentHash": "2bf91caadece73810d1e7bc537174f04",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarExecutable.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 1000,
+            "details": {
+              "yul": false
+            }
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "./IAxelarGateway.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarExecutable"
+      ]
+    }
+  }
+}
